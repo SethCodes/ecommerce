@@ -1,5 +1,5 @@
 import React from "react";
-import "../CSS/Home.css";
+import Product from "../Products/Product.js";
 
 function Home() {
   return (
@@ -7,9 +7,11 @@ function Home() {
       <div className="row">
         <div className="col-lg-6"></div>
         <h1>Ecommerce Home</h1>
-        <div className="col-lg-6"></div>
+        <div className="col-lg-6">
+          <h1>Ecommerce Home</h1>
+        </div>
       </div>
-      <h1>Ecommerce Home</h1>
+      <Product className="product__Image" />
     </div>
   );
 }

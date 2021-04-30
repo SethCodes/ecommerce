@@ -1,0 +1,13 @@
+#product {
+    margin: 10px 50px;
+
+}
+
+.productImage {
+    float: left;
+    overflow: hidden;
+    height: 200px;
+    width: auto;
+    background-color: red;
+
+}
